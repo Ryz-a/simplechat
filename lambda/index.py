@@ -5,7 +5,7 @@ import re
 import urllib.request
 
 # ColabのAPIエンドポイント
-API_URL = "your_URL/generate"
+API_URL = "your_URL/generate" #ngrokの公開URL+generate
 COLAB_LLM_API_URL = os.environ.get("COLAB_LLM_API_URL", API_URL)
 
 def lambda_handler(event, context):
